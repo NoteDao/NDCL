@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "esModuleInterop": true,
@@ -19,6 +20,6 @@
     "allowJs": true,
     "isolatedModules": true
   },
-  "exclude": ["node_modules", "pages"],
+  "exclude": ["node_modules", "src/pages"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
